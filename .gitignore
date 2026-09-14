@@ -3,3 +3,4 @@ serverless-chatbot.zip
 __pycache__/
 *.pyc
 .env
+frontend/config.js

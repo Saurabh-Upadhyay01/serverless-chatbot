@@ -1,0 +1,1 @@
+window.CHATBOT_API_URL = "YOUR_API_GATEWAY_URL/chat";
