@@ -32,11 +32,13 @@ def lambda_handler(event, context):
                 "content": message
             }
         ],
-        max_tokens=200
+        max_tokens=800
     )
 
     # Get AI response
     reply = response.choices[0].message.content
+    if not reply:
+        reply = "Sorry, I couldn't generate a response for that question. Please try asking in a different way."
 
     return {
         "statusCode": 200,

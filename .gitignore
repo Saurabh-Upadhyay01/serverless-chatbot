@@ -1,5 +1,6 @@
 lambda_package/
 serverless-chatbot.zip
+serverless-chatbot-new.zip
 __pycache__/
 *.pyc
 .env
